@@ -1,0 +1,19 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Charcoal background -->
+  <rect width="300" height="200" fill="#212121"/>
+  
+  <!-- Silver soccer ball -->
+  <circle cx="75" cy="40" r="18" fill="#B0BEC5" stroke="#212121" stroke-width="2"/>
+  
+  <!-- Lime green pulse waves -->
+  <path d="M 55 60 Q 75 45 95 60" stroke="#C0CA33" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 50 75 Q 75 55 100 75" stroke="#C0CA33" stroke-width="2" opacity="0.8" fill="none"/>
+  <path d="M 45 90 Q 75 65 105 90" stroke="#C0CA33" stroke-width="1" opacity="0.6" fill="none"/>
+  
+  <!-- Beacon pole -->
+  <rect x="68" y="60" width="4" height="30" rx="2" fill="#1A237E"/>
+  
+  <!-- Text -->
+  <text x="130" y="75" font-family="Montserrat, sans-serif" font-size="24" font-weight="700" fill="#1A237E">SOCCER</text>
+  <text x="130" y="105" font-family="Montserrat, sans-serif" font-size="20" fill="#B0BEC5">BEACON</text>
+</svg>

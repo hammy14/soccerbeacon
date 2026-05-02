@@ -1,0 +1,515 @@
+{
+  "projects": [
+    {
+      "name": "Markdown Storage - Setup & Infrastructure",
+      "description": "Create centralized documentation repository structure at /Users/endimac/docs/ with directory organization for all 4 sites (CardSparky, Pitch Passport, Serial Killers, Denick) and shared documentation",
+      "status": "Backlog",
+      "shirt_size": "M",
+      "site_id": 3,
+      "priority": "High",
+      "model": "Claude Haiku 4.5",
+      "tasks": [
+        {
+          "title": "Create root directory structure at /Users/endimac/docs/",
+          "description": "Create main /Users/endimac/docs/ directory and subdirectories for cardsparky, pitch-passport, serial-killers, denick, and shared",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Critical",
+          "size": "XS",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 0.5,
+          "actual_hours": 0,
+          "plan": "Execute bash commands to create directory structure"
+        },
+        {
+          "title": "Create master README.md for documentation hub",
+          "description": "Create comprehensive README.md at /Users/endimac/docs/README.md with index of all projects and shared resources",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "S",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 1,
+          "actual_hours": 0,
+          "plan": "Write markdown with project links and navigation"
+        },
+        {
+          "title": "Create CardSparky documentation directory structure",
+          "description": "Create subdirectories (setup, features, guides, phases) and README.md for CardSparky project",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "S",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 1,
+          "actual_hours": 0,
+          "plan": "Create directory structure and README template"
+        },
+        {
+          "title": "Create Pitch Passport documentation directory structure",
+          "description": "Create subdirectories (setup, architecture, guides, phases, testing) and README.md for Pitch Passport project",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "S",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 1,
+          "actual_hours": 0,
+          "plan": "Create directory structure and README template"
+        },
+        {
+          "title": "Create Serial Killers documentation directory structure",
+          "description": "Create subdirectories (setup, features, guides, phases) and README.md for Serial Killers project",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "S",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 1,
+          "actual_hours": 0,
+          "plan": "Create directory structure and README template"
+        },
+        {
+          "title": "Create Denick documentation directory structure",
+          "description": "Create subdirectories (admin-portal, mcp-server, guides) and README.md for Denick project",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "S",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 1,
+          "actual_hours": 0,
+          "plan": "Create directory structure and README template"
+        },
+        {
+          "title": "Create shared documentation directory",
+          "description": "Create shared directory with templates for architecture-overview.md, deployment-strategy.md, security-guidelines.md, api-consolidation.md, database-standards.md, development-workflow.md",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "S",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 1.5,
+          "actual_hours": 0,
+          "plan": "Create shared documentation templates"
+        },
+        {
+          "title": "Initialize git repository for docs",
+          "description": "Initialize git repository at /Users/endimac/docs/, add all files, and create initial commit",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "XS",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 0.5,
+          "actual_hours": 0,
+          "plan": "Run git init, add, and commit commands"
+        }
+      ]
+    },
+    {
+      "name": "Markdown Storage - Documentation Migration",
+      "description": "Migrate existing documentation from project directories to centralized /Users/endimac/docs/ repository. Includes Pitch Passport, CardSparky, Serial Killers, and Denick documentation consolidation",
+      "status": "Backlog",
+      "shirt_size": "L",
+      "site_id": 3,
+      "priority": "High",
+      "model": "Claude Haiku 4.5",
+      "tasks": [
+        {
+          "title": "Migrate Pitch Passport documentation to centralized location",
+          "description": "Move all markdown files from /Users/endimac/pitchpassport/docs/ and root directory to /Users/endimac/docs/pitch-passport/ with proper categorization (setup, architecture, guides, phases, testing)",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Critical",
+          "size": "L",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 3,
+          "actual_hours": 0,
+          "plan": "Copy files, rename for consistency, organize by category"
+        },
+        {
+          "title": "Migrate CardSparky documentation to centralized location",
+          "description": "Consolidate scattered markdown files from /Users/endimac/cardsparky/ to /Users/endimac/docs/cardsparky/ with proper organization by feature and phase",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "M",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Consolidate files, organize by feature and phase"
+        },
+        {
+          "title": "Migrate Serial Killers documentation to centralized location",
+          "description": "Consolidate existing documentation from /Users/endimac/serielkillers/ to /Users/endimac/docs/serial-killers/ with proper organization",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "M",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Consolidate files, organize by feature and phase"
+        },
+        {
+          "title": "Organize Denick documentation in centralized location",
+          "description": "Consolidate Denick documentation to /Users/endimac/docs/denick/ with proper organization (admin-portal, mcp-server, guides)",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "M",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Consolidate files, organize by category"
+        },
+        {
+          "title": "Update all internal links in migrated markdown files",
+          "description": "Search and replace relative links in all markdown files to point to new centralized location. Update links like ../docs/ to ../../docs/pitch-passport/guides/",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "L",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2.5,
+          "actual_hours": 0,
+          "plan": "Use sed or manual find-and-replace to update links"
+        },
+        {
+          "title": "Add YAML frontmatter to all markdown files",
+          "description": "Add metadata frontmatter (title, project, category, status, last_updated, tags) to all markdown files for better tracking and integration",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "L",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 3,
+          "actual_hours": 0,
+          "plan": "Create script to add frontmatter, execute on all files"
+        },
+        {
+          "title": "Create machine-readable documentation index",
+          "description": "Create /Users/endimac/docs/index.json with structured index of all projects, categories, and files for programmatic access",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "M",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Create JSON structure with all projects and files"
+        },
+        {
+          "title": "Create symlinks for quick access from project directories",
+          "description": "Create symlinks in each project directory (cardsparky, pitch-passport, serielkillers, denick) pointing to centralized docs for backward compatibility",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "S",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 1,
+          "actual_hours": 0,
+          "plan": "Create symlinks using ln -s command"
+        }
+      ]
+    },
+    {
+      "name": "Markdown Storage - Project Tracker Integration",
+      "description": "Integrate centralized markdown documentation with Denick Project Tracker. Add API endpoints, UI components, and documentation linking functionality",
+      "status": "Backlog",
+      "shirt_size": "L",
+      "site_id": 3,
+      "priority": "High",
+      "model": "Claude Sonnet 4.5",
+      "tasks": [
+        {
+          "title": "Add documentation API endpoints to Denick MCP server",
+          "description": "Add new endpoints to /Users/endimac/denick/mcp-server/index.js: GET /api/pt/projects/:id/docs, GET /api/pt/tasks/:id/docs, POST /api/pt/tasks with doc_references",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Critical",
+          "size": "L",
+          "model": "Claude Sonnet 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 3,
+          "actual_hours": 0,
+          "plan": "Implement API endpoints with proper error handling"
+        },
+        {
+          "title": "Update database schema to support documentation references",
+          "description": "Add doc_references field to projects and tasks tables, create documentation_links table for many-to-many relationships",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Critical",
+          "size": "M",
+          "model": "Claude Sonnet 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Create database migrations and update schema"
+        },
+        {
+          "title": "Add Documentation tab to project details in admin portal",
+          "description": "Add new Documentation tab to project details page in Denick admin portal showing linked markdown files with preview",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "L",
+          "model": "Claude Sonnet 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 3,
+          "actual_hours": 0,
+          "plan": "Create React component for documentation tab"
+        },
+        {
+          "title": "Add Related Documentation section to task details",
+          "description": "Add Related Documentation section to task details page showing linked markdown files with inline preview and quick navigation",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "L",
+          "model": "Claude Sonnet 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 3,
+          "actual_hours": 0,
+          "plan": "Create React component for related documentation"
+        },
+        {
+          "title": "Create drag-and-drop documentation linking interface",
+          "description": "Create interface in admin portal to link documentation files to projects and tasks. Support drag-and-drop, search, and bulk linking",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "L",
+          "model": "Claude Sonnet 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 4,
+          "actual_hours": 0,
+          "plan": "Implement drag-and-drop interface with search"
+        },
+        {
+          "title": "Create markdown preview component for admin portal",
+          "description": "Create reusable React component to render markdown files with syntax highlighting, table of contents, and navigation",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "M",
+          "model": "Claude Sonnet 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Use markdown-to-jsx or similar library"
+        },
+        {
+          "title": "Add documentation status tracking to admin portal",
+          "description": "Add ability to track documentation status (up-to-date, needs-review, deprecated) with last-updated dates and review history",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "M",
+          "model": "Claude Sonnet 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Add status field to documentation_links table"
+        },
+        {
+          "title": "Create documentation search interface",
+          "description": "Add search functionality to find documentation across all projects with filters by project, category, status, and tags",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "M",
+          "model": "Claude Sonnet 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Implement search with Elasticsearch or similar"
+        }
+      ]
+    },
+    {
+      "name": "Markdown Storage - Standards & Automation",
+      "description": "Establish documentation standards, create automation tools, and set up validation. Includes naming conventions, quality standards, automated validation, and maintenance workflows",
+      "status": "Backlog",
+      "shirt_size": "M",
+      "site_id": 3,
+      "priority": "Medium",
+      "model": "Claude Haiku 4.5",
+      "tasks": [
+        {
+          "title": "Create comprehensive documentation standards guide",
+          "description": "Create /Users/endimac/docs/STANDARDS.md with naming conventions, file organization, metadata requirements, quality checklist, and best practices",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "M",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Write comprehensive standards document"
+        },
+        {
+          "title": "Create markdown validation script",
+          "description": "Create /Users/endimac/docs/validate.js to validate all markdown files for frontmatter, naming conventions, broken links, and quality standards",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "High",
+          "size": "M",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Write Node.js validation script"
+        },
+        {
+          "title": "Create documentation index generator script",
+          "description": "Create /Users/endimac/docs/generate-index.js to automatically generate index.json and README files from directory structure",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "M",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Write Node.js script to generate index"
+        },
+        {
+          "title": "Create table of contents generator for long documents",
+          "description": "Create script to automatically generate table of contents for markdown files with links to sections",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Low",
+          "size": "S",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 1,
+          "actual_hours": 0,
+          "plan": "Write script to generate TOC"
+        },
+        {
+          "title": "Set up git pre-commit hooks for documentation validation",
+          "description": "Create pre-commit hooks to validate markdown files before commit, check for broken links, and enforce naming conventions",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "S",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 1.5,
+          "actual_hours": 0,
+          "plan": "Create .git/hooks/pre-commit script"
+        },
+        {
+          "title": "Create documentation update workflow and guidelines",
+          "description": "Create /Users/endimac/docs/UPDATE_WORKFLOW.md with guidelines for updating documentation, review process, and approval workflow",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "S",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 1,
+          "actual_hours": 0,
+          "plan": "Write workflow documentation"
+        },
+        {
+          "title": "Set up automated documentation validation in CI/CD pipeline",
+          "description": "Add documentation validation to CI/CD pipeline to automatically check all markdown files on commit/push",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Medium",
+          "size": "M",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 2,
+          "actual_hours": 0,
+          "plan": "Add validation step to CI/CD configuration"
+        },
+        {
+          "title": "Create quarterly documentation audit schedule",
+          "description": "Create schedule and checklist for quarterly documentation audits to ensure all docs are current, accurate, and follow standards",
+          "type": "Enhancement",
+          "status": "Backlog",
+          "priority": "Low",
+          "size": "S",
+          "model": "Claude Haiku 4.5",
+          "assigned_to": "Eric",
+          "est_hours": 1,
+          "actual_hours": 0,
+          "plan": "Create audit schedule and checklist"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_projects": 4,
+    "total_tasks": 32,
+    "total_estimated_hours": 68.5,
+    "projects_breakdown": {
+      "project_1_setup": {
+        "name": "Markdown Storage - Setup & Infrastructure",
+        "tasks": 8,
+        "estimated_hours": 7.5
+      },
+      "project_2_migration": {
+        "name": "Markdown Storage - Documentation Migration",
+        "tasks": 8,
+        "estimated_hours": 17.5
+      },
+      "project_3_integration": {
+        "name": "Markdown Storage - Project Tracker Integration",
+        "tasks": 8,
+        "estimated_hours": 22
+      },
+      "project_4_standards": {
+        "name": "Markdown Storage - Standards & Automation",
+        "tasks": 8,
+        "estimated_hours": 13.5
+      }
+    },
+    "task_distribution": {
+      "by_priority": {
+        "Critical": 4,
+        "High": 16,
+        "Medium": 10,
+        "Low": 2
+      },
+      "by_size": {
+        "XS": 2,
+        "S": 8,
+        "M": 12,
+        "L": 10
+      },
+      "by_model": {
+        "Claude Haiku 4.5": 24,
+        "Claude Sonnet 4.5": 8
+      }
+    },
+    "implementation_timeline": {
+      "week_1": "Project 1 - Setup & Infrastructure (7.5 hours)",
+      "week_2_3": "Project 2 - Documentation Migration (17.5 hours)",
+      "week_4": "Project 3 - Project Tracker Integration (22 hours)",
+      "week_5": "Project 4 - Standards & Automation (13.5 hours)"
+    }
+  }
+}
